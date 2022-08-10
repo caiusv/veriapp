@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/veriapp.css">
+    <title>VeriApp Helper</title>
+</head>
+
+<body>
+
+    <img src="./assets/logo-Chicks-Gold_4.png" alt="Chicks Gold Logo">
+
+
+    <!-- DROPDOWNS -->
+    <div class="wrapper">
+        <div class="grid">
+
+            <select id="payment-type" class="form-select" aria-label="Default select example">
+                <option selected>Payment Type</option>
+                <option value="1">Credit / Debit</option>
+                <option value="2">Crypto</option>
+                <option value="3">iDEAL / Skrill / GyroPay</option>
+                <option value="4">Interac / Zelle / UKBT</option>
+            </select>
+
+            <select id="connection-area" class="form-select" aria-label="Default select example">
+                <option selected>Connection Area</option>
+                <option value="1">Geomatch</option>
+                <option value="2">Not Geomatch</option>
+            </select>
+
+            <select id="vpn" class="form-select" aria-label="Default select example">
+                <option selected>VPN / Proxy Verification</option>
+                <option value="1">VPN = False / Proxy + Recent Abuse = True</option>
+                <option value="2">VPN = True / Proxy = True</option>
+            </select>
+
+            <select id="tiers" class="form-select" aria-label="Default select example">
+                <option selected>Verification Tiers</option>
+                <option value="1">$15+ (Not geomatch)</option>
+                <option value="2">$50+ (Geomatch)</option>
+                <option value="3">$200+</option>
+                <option value="4">$500+</option>
+                <option value="5">$700+</option>
+                <option value="6">$1000+</option>
+            </select>
+
+            <select id="addi" class="form-select" aria-label="Default select example">
+                <option selected>Additional Verification</option>
+                <option value="1">Leaked</option>
+                <option value="2">Not Leaked</option>
+
+            </select>
+
+        </div>
+        <button type="button" class="btn btn-light mt-5" onclick="getResult()">Help me verify!</button>
+
+        <div id="textbox" class="text-white">
+
+        </div>
+
+    </div>
+
+
+
+    <!-- SCRIPTS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- <div class="grid">
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Payment Type
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Debit / Credit</a>
+          <a class="dropdown-item" href="#">Crypto</a>
+          <a class="dropdown-item" href="#">iDEAL / Gyropay</a>
+          <a class="dropdown-item" href="#">Interac e-transfer</a>
+          <a class="dropdown-item" href="#">Skrill</a>
+          <a class="dropdown-item" href="#">Zelle / UKBT</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle btnsytle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Connection Area
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Geomatch</a>
+          <a class="dropdown-item" href="#">Not Geomatch</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Additional Verification
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Leaked</a>
+          <a class="dropdown-item" href="#">Not Leaked</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            VPN / Proxy Verification
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">No VPN / Recent Abuse + Proxy = True</a>
+          <a class="dropdown-item" href="#">VPN / Proxy</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Verification Tiers
+        </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">$15+ (No geomatch)</a>
+        <a class="dropdown-item" href="#">$50+ (Geomatch)</a>
+        <a class="dropdown-item" href="#">$250+</a>
+        <a class="dropdown-item" href="#">$500+</a>
+        <a class="dropdown-item" href="#">$700+</a>
+        <a class="dropdown-item" href="#">$1000+</a>
+      </div>
+  </div>
+</div> -->
+
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Payment Type
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Debit / Credit</a>
+                        <a class="dropdown-item" href="#">Crypto</a>
+                        <a class="dropdown-item" href="#">iDEAL / Gyropay</a>
+                        <a class="dropdown-item" href="#">Interac e-transfer</a>
+                        <a class="dropdown-item" href="#">Skrill</a>
+                        <a class="dropdown-item" href="#">Zelle / UKBT</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Connection Area
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Geomatch</a>
+                        <a class="dropdown-item" href="#">Not Geomatch</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Additional Verification
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Laeaked</a>
+                        <a class="dropdown-item" href="#">Not Leaked</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        VPN / Proxy Verification
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">No VPN / Recent Abuse + Proxy = True</a>
+                        <a class="dropdown-item" href="#">VPN / Proxy</a>
+                        
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+        </div>
+        </li>
+
+        </ul>
+        </div>
+    </nav> -->
+
+<!-- <div class="dropdown">
+        <button class="dropbtn">Payment Type</button>
+        <div class="dropdown-content">
+          <a href="#">Credit / Debit</a>
+          <a href="#">Crypto</a>
+          <a href="#">iDEAL, GyroPay</a>
+          <a href="#">Interac</a>
+          <a href="#">Skrill</a>
+          <a href="#">Zelle / UKBT</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Connection Area</button>
+        <div class="dropdown-content">
+          <a href="#">Geomatch</a>
+          <a href="#">Not Geomatch</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">VPN / Proxy Verification</button>
+        <div class="dropdown-content">
+          <a href="#">VPN = False / Proxy + Recent Abuse = True</a>
+          <a href="#">VPN = True / Proxy = True</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Verification Tiers</button>
+        <div class="dropdown-content">
+          <a href="#">$15+ (Not Geomatch)</a>
+          <a href="#">$50+ Geomatch</a>
+          <a href="#">$250</a>
+          <a href="#">$500</a>
+          <a href="#">$700</a>
+          <a href="#">$1000</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Additional Verification</button>
+        <div class="dropdown-content">
+          <a href="#">Leaked</a>
+          <a href="#">Not Leaked</a>
+        </div>
+      </div> -->
