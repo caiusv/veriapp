@@ -255,7 +255,7 @@ function getResult() {
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
     }
-    else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "4" && additional === "2"){
+    else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "4" && additional === "1"){
         textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
