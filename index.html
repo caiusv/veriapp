@@ -21,7 +21,7 @@
         <div class="grid">
 
             <select id="payment-type" class="form-select" aria-label="Default select example">
-                <option selected>Payment Type</option>
+                <option value="0" selected >Payment Type</option>
                 <option value="1">Credit / Debit</option>
                 <option value="2">Crypto</option>
                 <option value="3">iDEAL / Skrill / GyroPay</option>
@@ -29,19 +29,19 @@
             </select>
 
             <select id="connection-area" class="form-select" aria-label="Default select example">
-                <option selected>Connection Area</option>
+                <option value="0" selected >Connection Area</option>
                 <option value="1">Geomatch</option>
                 <option value="2">Not Geomatch</option>
             </select>
 
             <select id="vpn" class="form-select" aria-label="Default select example">
-                <option selected>VPN / Proxy Verification</option>
+                <option value="0" selected>VPN / Proxy Verification</option>
                 <option value="1">VPN = False / Proxy + Recent Abuse = True</option>
                 <option value="2">VPN = True / Proxy = True</option>
             </select>
 
             <select id="tiers" class="form-select" aria-label="Default select example">
-                <option selected>Verification Tiers</option>
+                <option value="0" selected>Verification Tiers</option>
                 <option value="1">$15+ (Not geomatch)</option>
                 <option value="2">$50+ (Geomatch)</option>
                 <option value="3">$200+</option>
@@ -51,7 +51,7 @@
             </select>
 
             <select id="addi" class="form-select" aria-label="Default select example">
-                <option selected>Additional Verification</option>
+                <option value="0" selected>Additional Verification</option>
                 <option value="1">Leaked</option>
                 <option value="2">Not Leaked</option>
 
@@ -59,10 +59,11 @@
 
         </div>
         <button type="button" class="btn btn-light mt-5" onclick="getResult()">Help me verify!</button>
+                     
+        <div id="textbox" class="text-white"></div>
 
-        <div id="textbox" class="text-white">
-
-        </div>
+        <div id="btnbox"></div>
+        
 
     </div>
 

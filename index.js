@@ -18,6 +18,27 @@ function getResult() {
 
     // Just because //
 
+    if (payment === "0" || connection === "0" || vpn === "0" || tiers === "0" || additional === "0") {
+
+        switch (true) {
+            case payment === "0":
+                alert('"Payment Method" is missing, please select a valid option')
+                break;
+            case connection === "0":
+                alert('"Connection Area" is missing, please select a valid option')
+                break;
+            case vpn === "0":
+                alert('"VPN / Proxy Verification" is missing, please select a valid option')
+                break;
+            case tiers === "0":
+                alert('"Verification Tiers" is missing, please select a valid option')
+                break;
+            case additional === "0":
+                alert('"Additional Verification" is missing, please select a valid option')
+                break;
+        }
+    }
+
     if (payment === "2") {
         textbox.innerHTML = "</br>No verification required."
     }
@@ -45,7 +66,7 @@ function getResult() {
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
     }
-    else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "4" && additional === "2"){
+    else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "4" && additional === "2") {
         textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
@@ -71,7 +92,7 @@ function getResult() {
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
     }
-    else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "5" && additional === "2"){
+    else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "5" && additional === "2") {
         textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
@@ -97,8 +118,8 @@ function getResult() {
                             </br>
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
-    }                        
-    else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "6" && additional === "2"){
+    }
+    else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "6" && additional === "2") {
         textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
@@ -127,9 +148,6 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
 
-     
-    
-
     // NOT GEOMATCH NOT LEAKED//
 
     else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "1" && additional === "2") {
@@ -150,7 +168,7 @@ function getResult() {
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
     }
-    else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "4" && additional === "2"){
+    else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "4" && additional === "2") {
         textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
@@ -177,7 +195,7 @@ function getResult() {
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
     }
-    else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "5" && additional === "2"){
+    else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "5" && additional === "2") {
         textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
@@ -204,8 +222,8 @@ function getResult() {
                             </br>
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
-    }                        
-    else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "6" && additional === "2"){
+    }
+    else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "6" && additional === "2") {
         textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
@@ -255,7 +273,7 @@ function getResult() {
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
     }
-    else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "4" && additional === "1"){
+    else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "4" && additional === "1") {
         textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
@@ -282,7 +300,7 @@ function getResult() {
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
     }
-    else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "5" && additional === "1"){
+    else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "5" && additional === "1") {
         textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
@@ -309,8 +327,8 @@ function getResult() {
                             </br>
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
-    }                        
-    else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "6" && additional === "1"){
+    }
+    else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "6" && additional === "1") {
         textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
@@ -361,7 +379,7 @@ function getResult() {
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
     }
-    else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "4" && additional === "1"){
+    else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "4" && additional === "1") {
         textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
@@ -389,7 +407,7 @@ function getResult() {
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
     }
-    else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "5" && additional === "1"){
+    else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "5" && additional === "1") {
         textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
@@ -417,8 +435,8 @@ function getResult() {
                             </br>
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
-    }                        
-    else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "6" && additional === "1"){
+    }
+    else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "6" && additional === "1") {
         textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
@@ -450,7 +468,7 @@ function getResult() {
 
     // iDEAL GEOMATCH NOT LEAKED //
 
-    
+
     else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "2" && additional === "2") {
         textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification;</br>
                             A photo of your valid government ID.</br>
@@ -467,7 +485,7 @@ function getResult() {
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
     }
-    else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "4" && additional === "2"){
+    else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "4" && additional === "2") {
         textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
@@ -492,7 +510,7 @@ function getResult() {
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
     }
-    else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "5" && additional === "2"){
+    else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "5" && additional === "2") {
         textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
@@ -517,8 +535,8 @@ function getResult() {
                             </br>
                             We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email?`
-    }                        
-    else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "6" && additional === "2"){
+    }
+    else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "6" && additional === "2") {
         textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
@@ -546,18 +564,18 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
 
-   // iDEAL GEOMATCH LEAKED  
+    // iDEAL GEOMATCH LEAKED  
 
-   else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "2" && additional === "1") {
-    textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification;</br>
+    else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "2" && additional === "1") {
+        textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification;</br>
                         A photo of your valid government ID.</br>
                         As well as a picture of you holding your ID with your whole face visible and nothing covering any part of your face. The ID must also clearly be visible in the picture. (Full face visible, no hats/hoods/headphones please)</br>
                         </br>
                         The photo can be uploaded here:https://chicksgold.com/customer-portal/verification`
-}
+    }
 
-else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "3" && additional === "1") {
-    textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification;</br>
+    else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "3" && additional === "1") {
+        textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification;</br>
                         A photo of your valid government ID.</br>
                         As well as a picture of you holding your ID with your whole face visible and nothing covering any part of your face. The ID must also clearly be visible in the picture. (Full face visible, no hats/hoods/headphones please)</br>
                         </br>
@@ -565,9 +583,9 @@ else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "3" &
                         </br>
                         We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                         It only takes a minute, can you please let me know your email?`
-}
-else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "4" && additional === "1"){
-    textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification. </br>
+    }
+    else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "4" && additional === "1") {
+        textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification. </br>
                         </br>
                         We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                         </br>
@@ -591,36 +609,9 @@ else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "4" &
                         </br>
                         We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                         It only takes a minute, can you please let me know your email?`
-}
-else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "5" && additional === "1"){
-    textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification. </br>
-                        </br>
-                        We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
-                        </br>
-                        We also need a selfie photo as clear as possible with you holding a Piece of paper or note that says "I NAME am buying an account on ORDER ID from www.chicksgold.com on DATE" Signed by you at the bottom. (Full face visible, no hats/hoods/headphones please). </br>
-                        As well as a picture of you holding your ID with your whole face visible and nothing covering any part of your face. The ID must also clearly be visible in the picture. (Full face visible, no hats/hoods/headphones please)</br>
-                        </br>
-                        ** Ensure to replace all CAPS words.</br>
-                        </br>
-                        </br>
-                        The photos can be uploaded here: https://chicksgold.com/customer-portal/verification</br>
-                        Lastly a photo of a utility bill or bank/credit statement dated in the last 60 days that was sent to you and displays your name and address.</br>
-                        </br>
-                        Here are some examples:</br> 
-
-                        https://chicksgold.gyazo.com/e4ba52c18033d1b27be3317360362e6f</br>
-
-                        https://chicksgold.gyazo.com/049d8a708ee42369db5af34cf7ca9766</br>
-
-                        https://chicksgold.gyazo.com/875f060b1059ae9d1602b797f016ba95</br>
-
-                        Please check the examples to do the verification properly.</br>
-                        </br>
-                        We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
-                        It only takes a minute, can you please let me know your email?`
-}                        
-else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "6" && additional === "1"){
-    textbox.innerHTML = `</br>I see the order, since it was done with iDEAl we would just need some verification. </br>
+    }
+    else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "5" && additional === "1") {
+        textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification. </br>
                         </br>
                         We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                         </br>
@@ -645,12 +636,39 @@ else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "6" &
                         </br>
                         We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                         It only takes a minute, can you please let me know your email?`
-}
+    }
+    else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "6" && additional === "1") {
+        textbox.innerHTML = `</br>I see the order, since it was done with iDEAl we would just need some verification. </br>
+                        </br>
+                        We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
+                        </br>
+                        We also need a selfie photo as clear as possible with you holding a Piece of paper or note that says "I NAME am buying an account on ORDER ID from www.chicksgold.com on DATE" Signed by you at the bottom. (Full face visible, no hats/hoods/headphones please). </br>
+                        As well as a picture of you holding your ID with your whole face visible and nothing covering any part of your face. The ID must also clearly be visible in the picture. (Full face visible, no hats/hoods/headphones please)</br>
+                        </br>
+                        ** Ensure to replace all CAPS words.</br>
+                        </br>
+                        </br>
+                        The photos can be uploaded here: https://chicksgold.com/customer-portal/verification</br>
+                        Lastly a photo of a utility bill or bank/credit statement dated in the last 60 days that was sent to you and displays your name and address.</br>
+                        </br>
+                        Here are some examples:</br> 
+
+                        https://chicksgold.gyazo.com/e4ba52c18033d1b27be3317360362e6f</br>
+
+                        https://chicksgold.gyazo.com/049d8a708ee42369db5af34cf7ca9766</br>
+
+                        https://chicksgold.gyazo.com/875f060b1059ae9d1602b797f016ba95</br>
+
+                        Please check the examples to do the verification properly.</br>
+                        </br>
+                        We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
+                        It only takes a minute, can you please let me know your email?`
+    }
 
     // BANK TRANSFER GEOMATCH NOT LEAKED //
 
-else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "2" && additional === "2"){
-         textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+    else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "2" && additional === "2") {
+        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                                 </br>
                                 Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                                 </br>
@@ -663,7 +681,7 @@ else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "2" &
                                 Here is an example:  https://prnt.sc/xc35bd  https://prnt.sc/w7vl85`
     }
 
-    else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "3" && additional === "2"){
+    else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "3" && additional === "2") {
         textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                                </br>
                                Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
@@ -674,11 +692,11 @@ else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "2" &
                                </br>
                                The photos can be uploaded here: https://chicksgold.com/customer-portal/verification.</br>
                                </br>
-                               Here is an example:  https://prnt.sc/xc35bd  https://prnt.sc/w7vl85`    
+                               Here is an example:  https://prnt.sc/xc35bd  https://prnt.sc/w7vl85`
 
-}
-else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "4" && additional === "2"){
-    textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+    }
+    else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "4" && additional === "2") {
+        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                            </br>
                            Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                            </br>
@@ -691,10 +709,10 @@ else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "4" &
                            Here is an example:  https://prnt.sc/xc35bd  https://prnt.sc/w7vl85 </br>
                            </br>We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email`
-}
+    }
 
-else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "5" && additional === "2"){
-    textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+    else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "5" && additional === "2") {
+        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                            </br>
                            Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                            </br>
@@ -707,10 +725,10 @@ else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "5" &
                            Here is an example:  https://prnt.sc/xc35bd  https://prnt.sc/w7vl85 </br>
                            </br>We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email`
-}
+    }
 
-else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "6" && additional === "2"){
-    textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+    else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "6" && additional === "2") {
+        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                            </br>
                            Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                            </br>
@@ -724,12 +742,12 @@ else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "6" &
                            Here is an example:  https://prnt.sc/xc35bd  https://prnt.sc/w7vl85 </br>
                            </br>We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                             It only takes a minute, can you please let me know your email`
-}
+    }
 
-// BANK TRANSFER GEOMATCH LEAKED //
+    // BANK TRANSFER GEOMATCH LEAKED //
 
-else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "2" && additional === "1"){
-    textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+    else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "2" && additional === "1") {
+        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                            </br>
                            Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                            </br>
@@ -741,10 +759,10 @@ else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "2" &
                            The photos can be uploaded here: https://chicksgold.com/customer-portal/verification.</br>
                            </br>
                            Here is an example:  https://prnt.sc/xc35bd  https://prnt.sc/w7vl85`
-}
+    }
 
-else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "3" && additional === "1"){
-   textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+    else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "3" && additional === "1") {
+        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                           </br>
                           Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                           </br>
@@ -755,11 +773,11 @@ else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "3" &
                           </br>
                           The photos can be uploaded here: https://chicksgold.com/customer-portal/verification.</br>
                           </br>
-                          Here is an example:  https://prnt.sc/xc35bd  https://prnt.sc/w7vl85`    
+                          Here is an example:  https://prnt.sc/xc35bd  https://prnt.sc/w7vl85`
 
-}
-else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "4" && additional === "1"){
-textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+    }
+    else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "4" && additional === "1") {
+        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                       </br>
                       Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                       </br>
@@ -773,10 +791,10 @@ textbox.innerHTML = `</br>In order to accept your order, we'd need to verify you
                       Here is an example:  https://prnt.sc/xc35bd  https://prnt.sc/w7vl85 </br>
                       </br>We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                        It only takes a minute, can you please let me know your email`
-}
+    }
 
-else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "5" && additional === "1"){
-textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+    else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "5" && additional === "1") {
+        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                       </br>
                       Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                       </br>
@@ -790,10 +808,10 @@ textbox.innerHTML = `</br>In order to accept your order, we'd need to verify you
                       Here is an example:  https://prnt.sc/xc35bd  https://prnt.sc/w7vl85 </br>
                       </br>We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                        It only takes a minute, can you please let me know your email`
-}
+    }
 
-else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "6" && additional === "1"){
-textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+    else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "6" && additional === "1") {
+        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                       </br>
                       Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                       </br>
@@ -807,8 +825,21 @@ textbox.innerHTML = `</br>In order to accept your order, we'd need to verify you
                       Here is an example:  https://prnt.sc/xc35bd  https://prnt.sc/w7vl85 </br>
                       </br>We'd also be needing 2 more things, no photos, just an agreement, and email confirmation.</br>
                        It only takes a minute, can you please let me know your email`
+    }
+
+    let clipbtn = document.createElement("button");
+    clipbtn.innerText = "Copy to Clipboard";
+    clipbtn.onclick = getCopy;
+    clipbtn.classList.add("btn", "btn-light", "mt-5")
+    let btnbox = document.getElementById("btnbox");
+    btnbox.appendChild(clipbtn);
+
 }
 
+function getCopy() {
+    let textbox = document.getElementById("textbox");
+    console.log(textbox.innerText)
+    navigator.clipboard.writeText(textbox.innerText)
 }
 
 console.log(document.getElementById("payment-type"))
