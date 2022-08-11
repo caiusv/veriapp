@@ -32,6 +32,30 @@ img{
     text-align: center;
 }
 
+.lefty{
+  width: 50%;
+}
+
+.textbox{
+  max-height: 400px;
+  overflow: auto;
+  background: white;
+  border: 2px rgb(235, 6, 6) solid;
+  border-radius: 15px;
+  display: none;
+}
+
+#btnbox {
+  display: none;
+}
+
+/* .checkboxes {
+  background-color: red;
+  width: 50%;
+  text-align: right;
+  transform: translateX(50%);
+} */
+
 
 
 

@@ -51,14 +51,14 @@ function getResult() {
     // GEOMATCH NOT LEAKED //
 
     else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "2" && additional === "2") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             A photo of the Credit/Debit card used beside your valid government ID. (You can censor the credit card number and just leave the name and last 4 digits visible).</br>
                             Here is an example: https://i.imgur.com/oZT7cjQ.png</br>
                             The photo can be uploaded here:https://chicksgold.com/customer-portal/verification`
     }
 
     else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "3" && additional === "2") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             A photo of the Credit/Debit card used beside your valid government ID. (You can censor the credit card number and just leave the name and last 4 digits visible).</br>
                             Here is an example: https://i.imgur.com/oZT7cjQ.png</br>
                             The photo can be uploaded here:https://chicksgold.com/customer-portal/verification</br>
@@ -67,7 +67,7 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "4" && additional === "2") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification. </br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             </br>
@@ -93,7 +93,7 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "5" && additional === "2") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification. </br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             </br>
@@ -120,7 +120,7 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "6" && additional === "2") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification. </br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             </br>
@@ -151,7 +151,7 @@ function getResult() {
     // NOT GEOMATCH NOT LEAKED//
 
     else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "1" && additional === "2") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
                             Here is an example: https://prnt.sc/xc35bd https://prnt.sc/w66jii</br>
@@ -159,7 +159,7 @@ function getResult() {
     }
 
     else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "3" && additional === "2") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
                             Here is an example: https://prnt.sc/xc35bd https://prnt.sc/w66jii</br>
@@ -169,7 +169,7 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "4" && additional === "2") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
                             Here is an example: https://prnt.sc/xc35bd https://prnt.sc/w66jii</br>
@@ -196,7 +196,7 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "5" && additional === "2") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
                             Here is an example: https://prnt.sc/xc35bd https://prnt.sc/w66jii
@@ -224,7 +224,7 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "6" && additional === "2") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
                             Here is an example: https://prnt.sc/xc35bd https://prnt.sc/w66jii
@@ -256,7 +256,7 @@ function getResult() {
     // GEOMATCH LEAKED //
 
     else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "2" && additional === "1") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             A photo of the Credit/Debit card used beside your valid government ID. (You can censor the credit card number and just leave the name and last 4 digits visible).</br>
                             As well as a picture of you holding your ID with your whole face visible and nothing covering any part of your face. The ID must also clearly be visible in the picture. (Full face visible, no hats/hoods/headphones please)</br>
                             Here is an example: https://i.imgur.com/oZT7cjQ.png</br>
@@ -264,7 +264,7 @@ function getResult() {
     }
 
     else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "3" && additional === "1") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             A photo of the Credit/Debit card used beside your valid government ID. (You can censor the credit card number and just leave the name and last 4 digits visible).</br>
                             As well as a picture of you holding your ID with your whole face visible and nothing covering any part of your face. The ID must also clearly be visible in the picture. (Full face visible, no hats/hoods/headphones please)</br>
                             Here is an example: https://i.imgur.com/oZT7cjQ.png</br>
@@ -274,7 +274,7 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "4" && additional === "1") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification. </br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             </br>
@@ -301,7 +301,7 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "5" && additional === "1") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification. </br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             </br>
@@ -329,7 +329,7 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "1" && connection === "1" && vpn === "1" && tiers === "6" && additional === "1") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification. </br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             </br>
@@ -360,7 +360,7 @@ function getResult() {
     // NOT GEOMATCH LEAKED //
 
     else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "1" && additional === "1") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
                             As well as a picture of you holding your ID with your whole face visible and nothing covering any part of your face. The ID must also clearly be visible in the picture. (Full face visible, no hats/hoods/headphones please)</br>
@@ -369,7 +369,7 @@ function getResult() {
     }
 
     else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "3" && additional === "1") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
                             As well as a picture of you holding your ID with your whole face visible and nothing covering any part of your face. The ID must also clearly be visible in the picture. (Full face visible, no hats/hoods/headphones please)</br>
@@ -380,7 +380,7 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "4" && additional === "1") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
                             As well as a picture of you holding your ID with your whole face visible and nothing covering any part of your face. The ID must also clearly be visible in the picture. (Full face visible, no hats/hoods/headphones please)</br>
@@ -408,7 +408,7 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "5" && additional === "1") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
                             As well as a picture of you holding your ID with your whole face visible and nothing covering any part of your face. The ID must also clearly be visible in the picture. (Full face visible, no hats/hoods/headphones please)</br>
@@ -437,7 +437,7 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "1" && connection === "2" && vpn === "1" && tiers === "6" && additional === "1") {
-        textbox.innerHTML = `</br>I see the order, since it was done with Credit/Debit we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with Credit/Debit we would just need some verification;</br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             Also a photo of the Credit/Debit card used beside the ID. (You can censor the card number and just leave the last 4 digits visible, Just need to see the name on the card, the exp date and last 4 digits.)</br>
                             Here is an example: https://prnt.sc/xc35bd https://prnt.sc/w66jii
@@ -470,14 +470,14 @@ function getResult() {
 
 
     else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "2" && additional === "2") {
-        textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with iDEAL we would just need some verification;</br>
                             A photo of your valid government ID.</br>
                             </br>
                             The photo can be uploaded here:https://chicksgold.com/customer-portal/verification`
     }
 
     else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "3" && additional === "2") {
-        textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with iDEAL we would just need some verification;</br>
                             A photo of your valid government ID.</br>
                             </br>
                             The photo can be uploaded here:https://chicksgold.com/customer-portal/verification</br>
@@ -486,7 +486,7 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "4" && additional === "2") {
-        textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification. </br>
+        textbox.innerHTML = `I see the order, since it was done with iDEAL we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             </br>
@@ -511,7 +511,7 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "5" && additional === "2") {
-        textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification. </br>
+        textbox.innerHTML = `I see the order, since it was done with iDEAL we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             </br>
@@ -537,7 +537,7 @@ function getResult() {
                             It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "6" && additional === "2") {
-        textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification. </br>
+        textbox.innerHTML = `I see the order, since it was done with iDEAL we would just need some verification. </br>
                             </br>
                             We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                             </br>
@@ -567,7 +567,7 @@ function getResult() {
     // iDEAL GEOMATCH LEAKED  
 
     else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "2" && additional === "1") {
-        textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with iDEAL we would just need some verification;</br>
                         A photo of your valid government ID.</br>
                         As well as a picture of you holding your ID with your whole face visible and nothing covering any part of your face. The ID must also clearly be visible in the picture. (Full face visible, no hats/hoods/headphones please)</br>
                         </br>
@@ -575,7 +575,7 @@ function getResult() {
     }
 
     else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "3" && additional === "1") {
-        textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification;</br>
+        textbox.innerHTML = `I see the order, since it was done with iDEAL we would just need some verification;</br>
                         A photo of your valid government ID.</br>
                         As well as a picture of you holding your ID with your whole face visible and nothing covering any part of your face. The ID must also clearly be visible in the picture. (Full face visible, no hats/hoods/headphones please)</br>
                         </br>
@@ -585,7 +585,7 @@ function getResult() {
                         It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "4" && additional === "1") {
-        textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification. </br>
+        textbox.innerHTML = `I see the order, since it was done with iDEAL we would just need some verification. </br>
                         </br>
                         We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                         </br>
@@ -611,7 +611,7 @@ function getResult() {
                         It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "5" && additional === "1") {
-        textbox.innerHTML = `</br>I see the order, since it was done with iDEAL we would just need some verification. </br>
+        textbox.innerHTML = `I see the order, since it was done with iDEAL we would just need some verification. </br>
                         </br>
                         We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                         </br>
@@ -638,7 +638,7 @@ function getResult() {
                         It only takes a minute, can you please let me know your email?`
     }
     else if (payment === "3" && connection === "1" && vpn === "1" && tiers === "6" && additional === "1") {
-        textbox.innerHTML = `</br>I see the order, since it was done with iDEAl we would just need some verification. </br>
+        textbox.innerHTML = `I see the order, since it was done with iDEAl we would just need some verification. </br>
                         </br>
                         We need a photo of ID held in front of the computer screen with this full webpage visible. (Front and back of the ID.)</br>
                         </br>
@@ -668,7 +668,7 @@ function getResult() {
     // BANK TRANSFER GEOMATCH NOT LEAKED //
 
     else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "2" && additional === "2") {
-        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+        textbox.innerHTML = `In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                                 </br>
                                 Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                                 </br>
@@ -682,7 +682,7 @@ function getResult() {
     }
 
     else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "3" && additional === "2") {
-        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+        textbox.innerHTML = `In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                                </br>
                                Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                                </br>
@@ -696,7 +696,7 @@ function getResult() {
 
     }
     else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "4" && additional === "2") {
-        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+        textbox.innerHTML = `In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                            </br>
                            Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                            </br>
@@ -712,7 +712,7 @@ function getResult() {
     }
 
     else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "5" && additional === "2") {
-        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+        textbox.innerHTML = `In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                            </br>
                            Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                            </br>
@@ -728,7 +728,7 @@ function getResult() {
     }
 
     else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "6" && additional === "2") {
-        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+        textbox.innerHTML = `In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                            </br>
                            Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                            </br>
@@ -747,7 +747,7 @@ function getResult() {
     // BANK TRANSFER GEOMATCH LEAKED //
 
     else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "2" && additional === "1") {
-        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+        textbox.innerHTML = `In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                            </br>
                            Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                            </br>
@@ -762,7 +762,7 @@ function getResult() {
     }
 
     else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "3" && additional === "1") {
-        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+        textbox.innerHTML = `In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                           </br>
                           Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                           </br>
@@ -777,7 +777,7 @@ function getResult() {
 
     }
     else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "4" && additional === "1") {
-        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+        textbox.innerHTML = `In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                       </br>
                       Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                       </br>
@@ -794,7 +794,7 @@ function getResult() {
     }
 
     else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "5" && additional === "1") {
-        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+        textbox.innerHTML = `In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                       </br>
                       Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                       </br>
@@ -811,7 +811,7 @@ function getResult() {
     }
 
     else if (payment === "4" && connection === "1" && vpn === "1" && tiers === "6" && additional === "1") {
-        textbox.innerHTML = `</br>In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
+        textbox.innerHTML = `In order to accept your order, we'd need to verify your account and this is what we need in order to do so: </br>
                       </br>
                       Clear photos of the front and back of your ID held in front of the screen with this full-page visible.</br>
                       </br>
@@ -827,19 +827,23 @@ function getResult() {
                        It only takes a minute, can you please let me know your email`
     }
 
-    let clipbtn = document.createElement("button");
-    clipbtn.innerText = "Copy to Clipboard";
-    clipbtn.onclick = getCopy;
-    clipbtn.classList.add("btn", "btn-light", "mt-5")
+
     let btnbox = document.getElementById("btnbox");
-    btnbox.appendChild(clipbtn);
+    if (textbox.innerHTML !== "") {
+        btnbox.style.display = "block";
+        textbox.style.display = "block";
+    } else {
+        btnbox.style.display = "none";
+        textbox.style.display = "none";
+    }
 
 }
 
 function getCopy() {
     let textbox = document.getElementById("textbox");
-    console.log(textbox.innerText)
-    navigator.clipboard.writeText(textbox.innerText)
+    console.log(textbox.innerText);
+    navigator.clipboard.writeText(textbox.innerText);
+    alert("Copied to clipboard!");
 }
 
 console.log(document.getElementById("payment-type"))
