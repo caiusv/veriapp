@@ -1,60 +1,85 @@
 /** Body **/
 
 body{
-    background-color: black;
+  background-color: black;
 }
 
 img{
-  display: inline-block;
-  width: 400px;
-  left: 50%;
-  position: absolute;
-  transform: translateX(-50%);
+display: inline-block;
+width: 400px;
+left: 50%;
+position: absolute;
+transform: translateX(-50%);
 }
 
 .grid{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1;
-    column-gap: 60px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1;
+  column-gap: 60px;
 }
 
 .form-select,.btn{
-  max-height: 50px;
+max-height: 50px;
 }
 
 .wrapper{
-    width: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.magicgrid {
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1;
+  column-gap: 50px;
+}
+
+.righty {
+  width: 100%;
+  max-height: 400px;
 }
 
 .lefty{
-  width: 50%;
+width: 100%;
 }
 
+
 .textbox{
-  max-height: 400px;
-  overflow: auto;
-  background: white;
-  border: 2px rgb(235, 6, 6) solid;
-  border-radius: 15px;
-  display: none;
+font-family: 'Montserrat', sans-serif;
+color: black;
+font-weight: bold;
+max-height: 400px;
+overflow: auto;
+background: white;
+border: 2px rgb(235, 6, 6) solid;
+border-radius: 15px;
+display: none;
 }
 
 #btnbox {
-  display: none;
+display: none;
+}
+
+.list{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: left;
 }
 
 /* .checkboxes {
-  background-color: red;
-  width: 50%;
-  text-align: right;
-  transform: translateX(50%);
+background-color: red;
+width: 50%;
+text-align: right;
+transform: translateX(50%);
 } */
+
+
 
 
 

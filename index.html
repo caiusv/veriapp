@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/veriapp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <title>VeriApp Helper</title>
 </head>
 
@@ -63,51 +66,33 @@
         <!-- // BUTTONS AND TEXTBOX // -->
         <button type="button" class="btn btn-light mt-5" onclick="getResult()">Help me verify!</button>
 
-        <div class="lefty">
+        <div id="magicgrid" class="magicgrid">
 
-            <div id="textbox" class="textbox text-black mt-5"></div>
+            <div class="lefty">
 
-            <div id="btnbox">
+                <div id="textbox" class="textbox text-black mt-5"></div>
 
-                <button class="btn btn-light mt-5" onclick="getCopy()">Copy to Clipboard</button>
+                <div id="btnbox">
+
+                    <button class="btn btn-light mt-5" onclick="getCopy()">Copy to Clipboard</button>
+
+                </div>
+            </div>
+
+            <div id="righty" class="righty mt-5">
+
+                <ul class="list">
+                    <h3>Verification Examples</h3>
+                    <li> <a href="https://postimg.cc/1npnMzYx"target="_blank">ID + Card (Geomatch)</a></li>
+                    <li> <a href="https://postimg.cc/MfnGNK9K"target="_blank">ID (No geomatch)</a></li>
+                    <li> <a href="https://postimg.cc/7CQ8c1d0"target="_blank">Selfie + ID</a></li>
+                    <li> <a href="https://postimg.cc/RWVYB6cR"target="_blank">Selfie + Note</a></li>
+                </ul>
 
             </div>
 
         </div>
     </div>
-
-    <!-- CHECKBOXES -->
-
-<!-- <div class="checkboxes">
-
-    <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-        <label class="form-check-label" for="flexCheckDefault">
-           Government ID (Passport, Driver's License, ID.)
-        </label>
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-        <label class="form-check-label" for="flexCheckDefault">
-            Selfie+ID
-        </label>
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-        <label class="form-check-label" for="flexCheckDefault">
-            Card
-        </label>
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-        <label class="form-check-label" for="flexCheckDefault">
-            Contract
-        </label>
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-        <label class="form-check-label" for="flexCheckDefault">
-            Bank Statement
-        </label>
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-        <label class="form-check-label" for="flexCheckDefault">
-            Internet Bill
-        </label>
-    </div>
-    </div>
-</div> -->
 
 
 

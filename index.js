@@ -9,12 +9,19 @@ var test4 = {
 
 
 function getResult() {
+
+    // VARIABLES//
+
     let payment = document.getElementById("payment-type").value;
     let connection = document.getElementById("connection-area").value;
     let vpn = document.getElementById("vpn").value;
     let tiers = document.getElementById("tiers").value;
     let additional = document.getElementById("addi").value;
     let textbox = document.getElementById("textbox");
+    let btnbox = document.getElementById("btnbox");
+    let righty = document.getElementById("righty");
+    let magicgrid = document.getElementById("magicgrid");
+
 
     // Just because //
 
@@ -827,15 +834,19 @@ function getResult() {
                        It only takes a minute, can you please let me know your email`
     }
 
-
-    let btnbox = document.getElementById("btnbox");
     if (textbox.innerHTML !== "") {
-        btnbox.style.display = "block";
-        textbox.style.display = "block";
+        btnbox.style.display = "inline-block";
+        textbox.style.display = "inline-block";
+        righty.style.display = "inline-block";
+        magicgrid.style.display = "grid";
     } else {
         btnbox.style.display = "none";
         textbox.style.display = "none";
+        righty.style.display = "none";
+        magicgrid.style.display = "none";
     }
+
+    
 
 }
 
